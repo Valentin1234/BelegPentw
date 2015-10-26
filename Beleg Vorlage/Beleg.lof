@@ -1,0 +1,9 @@
+\select@language {german}
+\contentsline {figure}{\numberline {1}{\ignorespaces FSM\_WB\_Master\relax }}{5}
+\contentsline {figure}{\numberline {2}{\ignorespaces Komponenten\relax }}{6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Hello World Ausgabe\relax }}{8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Branch condition false Waveforms\relax }}{9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Start Waveforms\relax }}{9}
+\contentsline {figure}{\numberline {6}{\ignorespaces wishbone handshake waveforms\relax }}{9}
+\contentsline {figure}{\numberline {7}{\ignorespaces wishbone handshake LOAD waveforms\relax }}{10}
+\contentsline {figure}{\numberline {8}{\ignorespaces wishbone handshake STORE waveforms\relax }}{10}

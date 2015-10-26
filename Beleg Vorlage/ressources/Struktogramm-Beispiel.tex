@@ -1,0 +1,29 @@
+\begin{center}
+%\sProofOn %zeigt Eckpunkte der reservierten Fläche
+\begin{struktogramm}(110,83) %Breite+Höhe müssen manuell festgelegt werden... deshalb mit sProof prüfen, ob die gewähöten Werte passen
+
+	\while[10]{zähle \(k\) von \(0\) bis \(2 \cdot N - 2\)}
+
+		\assign[10]{\(accu = 0\)}
+
+		\ifthenelse{4}{4}{\(k - N<0\) ?}{ja}{nein}
+			\assign[10]{\(i=0\)}
+			\assign[10]{\(imax=k\)}
+		\change
+			\assign[10]{\(i=k-(N-1)\)}
+			\assign[10]{\(imax=N-1\)}
+		\ifend
+
+		\while[10]{zähle \(i\) bis \(imax\)}
+
+			\assign[10]{\(accu = accu + MEM(i) \cdot MEM(k-i+N)\)}
+
+		\whileend
+
+		\assign[10]{\(MEM(k + 2N) = accu\)}
+
+	\whileend
+
+\end{struktogramm}
+%\sProofOff
+\end{center}

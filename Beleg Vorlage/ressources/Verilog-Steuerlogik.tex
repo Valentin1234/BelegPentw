@@ -1,0 +1,54 @@
+%benötigt \usepackage{listings}
+%Code entnommen aus control.v
+
+\lstset{language=Verilog, tabsize=3} %richtige tabsize beachten
+\begin{lstlisting}
+//Verilog HDL for "fc_discrete_convolution", 
+//"fc_discrete_convolution_control"    "functional"
+
+
+module fc_discrete_convolution_control (
+				state,
+				a_to_alu,
+				a_to_i, i_to_b,
+				a_to_j, j_to_b,
+				...);
+	
+	// definition of state parameters
+	
+	parameter IDLE				= 5'd00; // 00000
+	parameter PREP1			= 5'd01; // 00001
+	parameter PREP2			= 5'd03; // 00011
+	parameter PREP3			= 5'd02; // 00010
+	...
+	
+	// generate control signals
+	
+	always @ (state) begin
+		
+		//defaults
+		
+		a_to_alu		= 1'b0;
+		a_to_i		= 1'b0;
+		...	
+		
+		case (state)
+		
+			IDLE			:  begin
+									ready			= 1'b1;
+								end
+			
+			PREP1			:  begin
+									n_to_b		= 1'b1;
+									//b_to_alu		= 1'b1;
+									n_to_c		= 1'b1;
+									alu_sub		= 1'b1;
+								end
+			...	
+			
+		endcase
+		
+	end
+	
+endmodule
+\end{lstlisting}

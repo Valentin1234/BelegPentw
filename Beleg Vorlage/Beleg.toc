@@ -1,0 +1,23 @@
+\select@language {german}
+\contentsline {section}{\numberline {1}Aufgabenstellung}{2}
+\contentsline {subsection}{\numberline {1.1}Abarbeitungsreihenfolge}{2}
+\contentsline {section}{\numberline {2}Entwurf}{3}
+\contentsline {subsection}{\numberline {2.1}PC (ProgrammCounter)}{3}
+\contentsline {subsection}{\numberline {2.2}J-adr-calc}{3}
+\contentsline {subsection}{\numberline {2.3}Steuerung}{3}
+\contentsline {subsection}{\numberline {2.4}Registers}{4}
+\contentsline {subsection}{\numberline {2.5}sgn-extend}{4}
+\contentsline {subsection}{\numberline {2.6}Comparator}{4}
+\contentsline {subsection}{\numberline {2.7}Memory Interface}{4}
+\contentsline {subsection}{\numberline {2.8}Pipelineregister IF-ID}{4}
+\contentsline {subsection}{\numberline {2.9}Pipelineregister ID-EX}{4}
+\contentsline {subsection}{\numberline {2.10}ALU}{4}
+\contentsline {subsection}{\numberline {2.11}Operationstypen:}{5}
+\contentsline {section}{\numberline {3}Test}{7}
+\contentsline {subsection}{\numberline {3.1}Comparator}{7}
+\contentsline {subsection}{\numberline {3.2}J\_adr\_calc}{7}
+\contentsline {subsection}{\numberline {3.3}Steuerung}{7}
+\contentsline {subsection}{\numberline {3.4}Wishbone\_Master}{8}
+\contentsline {subsection}{\numberline {3.5}mips\_top}{8}
+\contentsline {subsection}{\numberline {3.6}Megatop}{8}
+\contentsline {section}{Abbildungsverzeichnis}{10}
